@@ -1,0 +1,136 @@
+#main-heading{
+	text-align: center;
+	color: #8b8be2;
+	text-transform: capitalize;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.banner{
+	height: 200px;
+	background-image: url("lab\ norm\ 1.jpg");
+	margin: 0;
+	padding: 0;
+    color:antiquewhite;
+}
+
+a:visited{
+	font-style: italic;
+	color: rgb(230, 127, 2);
+}
+
+.menu a{
+	margin:10px;
+	width:900px;
+	font-family: sans-serif;
+    align-items: center;
+    display:block;
+    padding:3px;
+    text-decoration:none;
+    
+    color:#009;
+}
+
+.menu li{
+	display:block;
+	width:400px;
+	float:left;
+	margin-left:2px;
+	border:1px solid #000;
+  
+}
+
+.menu a:hover {
+	background-color:rgb(161, 161, 184);
+    width: 250px;
+	color:#fff;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  article {
+    float: left;
+    padding: 100px;
+    width: 50%;
+    height: 300px; /* only for demonstration, should be removed */
+  }
+  
+  footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: inherit;
+    color: white;
+  }
+  
+aside {
+   clear: both;   
+}
+
+nav{
+    width: 50%;
+    height: 500px; 
+    padding: 20px;
+    width:200px;
+    height:200px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top: -450px;
+    margin-left: 500px;
+    font-size: xxx-large;
+    <img src="lab 4.jpg" alt="logo" width="400px" height="400px">
+  }
+  
+  article{
+    float: both;
+    padding: 20px;
+    width: 50%;
+    background-color: #f1f1f1; 
+    height: 560px; 
+  }
+  
+  section::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  footer{
+    background-color: #777;
+    padding: 10px;
+    text-align: left;
+    color: white;
+  }
+
+  .quick_links{
+    float:left;
+    background:rgb(203, 216, 203);
+    width:50%;
+    height:280px;
+  }
+
+  .categories{
+    float:right;
+    background:rgb(203, 216, 203);
+    width:50%;
+    height:280px;
+  }
+ 
+.main_content{
+    float:left;
+    background:#f1f1f1; ;
+    width:50%;
+    height:2250px;
+    text-align: inherit;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
